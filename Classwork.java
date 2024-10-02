@@ -5,6 +5,8 @@ public class Classwork
   public static void main(String[] args)
   {
     Shopping();
+    Quote();
+    Rabbit();
   }
 
   public static void Shopping()
@@ -16,12 +18,19 @@ public class Classwork
     int itemQuantity = sc.nextInt();
     System.out.println("How much do each weigh?");
     double itemWeight = sc.nextDouble();
+    System.out.println(itemQuantity + " " + itemType + " at " + itemWeight + " pounds each will weight " + (itemWeight*itemQuantity) + " pounds");
   }
 
   public static void Quote()
   {
-    System.out.println("\"That brain")
+    System.out.println("\"That brain of mine is something more than merely mortal; as time will show\" \nAda Lovelace\nThe first computer programmer");
   }
 
+  public static void Rabbit()
+  {
+    System.out.println("(\\(\\");
+    System.out.println("( - -)");
+    System.out.println("((\')(\')");
+  }
 }
 
